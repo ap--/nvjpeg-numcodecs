@@ -1,0 +1,23 @@
+# nvjpeg-numcodecs conda test environment
+name: nvjpeg
+
+channels:
+  - nodefaults
+  - conda-forge
+  - nvidia
+
+dependencies:
+  - python
+  - pip
+
+  - cython
+  - setuptools-scm
+  - nvidia::libnvjpeg-dev
+  - nvidia::cuda-cudart-dev
+
+  - numcodecs
+  - cupy
+  - nvidia::libnvjpeg
+
+  - pip:
+#    - "-e ."
