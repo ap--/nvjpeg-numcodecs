@@ -1,12 +1,10 @@
-# nvjpeg_numcodecs
+# nvjpeg_numcodecs &mdash; :warning: Nothing to see here yet. Come back later...
 
 This is a playground for getting nvjpeg decoding into numcodecs to
 benchmark if tile loading for deeplearning can be significantly sped
 up when decoding directly on the GPU.
 
 ## :construction: :construction: Notes :construction: :construction:
-
-Nothing to see here yet. Come back later...
 
 Currently, this is a bit of a playground for testing feasibility and
 establishing good benchmarks. But feel free to open issues in the
